@@ -1,13 +1,28 @@
 <script>
   import { config } from "../../configurator/Configuration";
+  const getColor = (color) => {
+    let cl;
+    switch (color) {
+      case 1:
+        cl = "grey";
+        break;
+      case 2:
+        cl = "red";
+        break;
+      case 3:
+        cl = "white";
+        break;
+
+      default:
+        cl = "grey";
+        break;
+    }
+    return "/cars/model_s_" + cl + ".png";
+  };
+  let color = "";
+  $: color = getColor($config.color);
 </script>
 
 <div class="content">
-  {#if $config.color == 1}
-    <img src="/cars/model_s_grey.png" alt="Car Grey" />
-  {:else if $config.color == 2}
-    <img src="/cars/model_s_red.png" alt="Car" />
-  {:else}
-    <img src="/cars/model_s_white.png" alt="Car" />
-  {/if}
+  <img src={color} alt="Car Grey" />
 </div>
