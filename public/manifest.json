@@ -1,0 +1,9 @@
+{
+  "name": "Svelte Configurator Demo",
+  "short_name": "SvelteConf",
+  "icons": [],
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#fefefe",
+  "theme_color": "#afafaf"
+}
