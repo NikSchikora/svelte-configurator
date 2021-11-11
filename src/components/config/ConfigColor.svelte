@@ -44,12 +44,12 @@
 
 <style>
   .selector__wrapper {
-    border: solid 1px #333;
+    border: solid 1px #b1b2ba;
     padding: 1rem 0.5rem;
-    border-radius: 10px;
+    border-radius: 20px;
     margin: 0.5rem 1rem;
     cursor: pointer;
-    transition: all 0.2s ease;
+    transition: all 0.35s ease;
   }
 
   .selector__color {
@@ -61,11 +61,11 @@
   }
 
   #color__grey {
-    background-color: darkslategray;
+    background-color: #484b50;
   }
 
   #color__red {
-    background-color: red;
+    background-color: #aa0010;
   }
 
   #color__white {
@@ -73,6 +73,6 @@
   }
 
   .active {
-    background-color: lightgray;
+    border: solid 3px #317ffa;
   }
 </style>

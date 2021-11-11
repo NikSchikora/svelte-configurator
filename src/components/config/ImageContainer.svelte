@@ -1,4 +1,5 @@
 <script>
+  import Card from "../ui/Card.svelte";
   import { config } from "../../configurator/Configuration";
   const getColor = (color) => {
     let cl;

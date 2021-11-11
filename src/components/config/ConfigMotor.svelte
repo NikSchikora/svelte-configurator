@@ -32,16 +32,15 @@
 
 <style>
   .selector__wrapper {
-    border: solid 1px #333;
+    border: solid 1px #b1b2ba;
     padding: 1rem 0.5rem;
-    border-radius: 10px;
+    border-radius: 20px;
     margin: 0.5rem 1rem;
     cursor: pointer;
     transition: all 0.2s ease;
   }
 
   .active {
-    background-color: lightgrey;
-    font-weight: bolder;
+    border: solid 3px #317ffa;
   }
 </style>
