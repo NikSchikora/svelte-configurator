@@ -18,7 +18,7 @@
         cl = "grey";
         break;
     }
-    return "/cars/model_s_" + cl + ".png";
+    return "/cars/model_s_" + cl + ".jpg";
   };
   let color = "";
   $: color = getColor($config.color);
